@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.4.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="0ab14415-590f-43ec-8648-7de1391a9587" data-root-id="6249"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="6559">
+          {"2b1a4cb2-3f1c-4c31-aefc-d56999ab38df":{"roots":{"references":[{"attributes":{"below":[{"id":"6259","type":"CategoricalAxis"}],"center":[{"id":"6262","type":"Grid"},{"id":"6267","type":"Grid"}],"left":[{"id":"6263","type":"LinearAxis"}],"plot_height":500,"plot_width":1000,"renderers":[{"id":"6274","type":"GlyphRenderer"}],"title":{"id":"6250","type":"Title"},"toolbar":{"id":"6269","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"6248","type":"FactorRange"},"x_scale":{"id":"6255","type":"CategoricalScale"},"y_range":{"id":"6253","type":"DataRange1d"},"y_scale":{"id":"6257","type":"LinearScale"}},"id":"6249","subtype":"Figure","type":"Plot"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"6268","type":"HoverTool"}]},"id":"6269","type":"Toolbar"},{"attributes":{},"id":"6260","type":"CategoricalTicker"},{"attributes":{"callback":null,"factors":[["Annenberg","FY16"],["Annenberg","FY17"],["Annenberg","FY18"],["Athletics","FY16"],["Athletics","FY17"],["Athletics","FY18"],["Dental","FY16"],["Dental","FY17"],["Dental","FY18"],["Design","FY16"],["Design","FY17"],["Design","FY18"],["EVP","FY16"],["EVP","FY17"],["EVP","FY18"],["Ed","FY16"],["Ed","FY17"],["Ed","FY18"],["OpenTop","FY16"],["OpenTop","FY17"],["OpenTop","FY18"],["Law","FY16"],["Law","FY17"],["Law","FY18"],["Movein","FY16"],["Movein","FY17"],["Movein","FY18"],["PSOM","FY16"],["PSOM","FY17"],["PSOM","FY18"],["Pennovation","FY16"],["Pennovation","FY17"],["Pennovation","FY18"],["Provost","FY16"],["Provost","FY17"],["Provost","FY18"],["Res Services","FY16"],["Res Services","FY17"],["Res Services","FY18"],["SAS","FY16"],["SAS","FY17"],["SAS","FY18"],["Vet","FY16"],["Vet","FY17"],["Vet","FY18"],["Wharton","FY16"],["Wharton","FY17"],["Wharton","FY18"]],"range_padding":0.1},"id":"6248","type":"FactorRange"},{"attributes":{},"id":"6431","type":"UnionRenderers"},{"attributes":{"callback":null,"start":0},"id":"6253","type":"DataRange1d"},{"attributes":{"data_source":{"id":"6247","type":"ColumnDataSource"},"glyph":{"id":"6272","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"6273","type":"VBar"},"selection_glyph":null,"view":{"id":"6275","type":"CDSView"}},"id":"6274","type":"GlyphRenderer"},{"attributes":{"text":"Fruit Counts by Year"},"id":"6250","type":"Title"},{"attributes":{"source":{"id":"6247","type":"ColumnDataSource"}},"id":"6275","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"6273","type":"VBar"},{"attributes":{},"id":"6264","type":"BasicTicker"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"x"}},"id":"6272","type":"VBar"},{"attributes":{},"id":"6432","type":"Selection"},{"attributes":{"callback":null,"tooltips":[["School and Year","@x"],["Total:","@counts{1}"]]},"id":"6268","type":"HoverTool"},{"attributes":{},"id":"6427","type":"BasicTickFormatter"},{"attributes":{},"id":"6255","type":"CategoricalScale"},{"attributes":{"grid_line_color":null,"ticker":{"id":"6260","type":"CategoricalTicker"}},"id":"6262","type":"Grid"},{"attributes":{"formatter":{"id":"6427","type":"BasicTickFormatter"},"ticker":{"id":"6264","type":"BasicTicker"}},"id":"6263","type":"LinearAxis"},{"attributes":{},"id":"6429","type":"CategoricalTickFormatter"},{"attributes":{"formatter":{"id":"6429","type":"CategoricalTickFormatter"},"major_label_orientation":1,"ticker":{"id":"6260","type":"CategoricalTicker"}},"id":"6259","type":"CategoricalAxis"},{"attributes":{"dimension":1,"ticker":{"id":"6264","type":"BasicTicker"}},"id":"6267","type":"Grid"},{"attributes":{},"id":"6257","type":"LinearScale"},{"attributes":{"callback":null,"data":{"counts":[58.17,81.22,69.69,229.86,240.56,416.77,200.03,183.38,176.67,17.34,10.33,21.3,101.44,114.06,105.49,71.82,72.72,41.21,2899.98,2780.55,2424.97,17.91,27.07,25.19,85.68,83.66,110.54,677.86,752.57,863.06,14.65,20.48,15.4,380.87,419.36,406.76,977.04,748.73,839.72,140.39,177.88,176.2,403.2,496.17,407.43,439.59,491.55,542.92],"x":[["Annenberg","FY16"],["Annenberg","FY17"],["Annenberg","FY18"],["Athletics","FY16"],["Athletics","FY17"],["Athletics","FY18"],["Dental","FY16"],["Dental","FY17"],["Dental","FY18"],["Design","FY16"],["Design","FY17"],["Design","FY18"],["EVP","FY16"],["EVP","FY17"],["EVP","FY18"],["Ed","FY16"],["Ed","FY17"],["Ed","FY18"],["OpenTop","FY16"],["OpenTop","FY17"],["OpenTop","FY18"],["Law","FY16"],["Law","FY17"],["Law","FY18"],["Movein","FY16"],["Movein","FY17"],["Movein","FY18"],["PSOM","FY16"],["PSOM","FY17"],["PSOM","FY18"],["Pennovation","FY16"],["Pennovation","FY17"],["Pennovation","FY18"],["Provost","FY16"],["Provost","FY17"],["Provost","FY18"],["Res Services","FY16"],["Res Services","FY17"],["Res Services","FY18"],["SAS","FY16"],["SAS","FY17"],["SAS","FY18"],["Vet","FY16"],["Vet","FY17"],["Vet","FY18"],["Wharton","FY16"],["Wharton","FY17"],["Wharton","FY18"]]},"selected":{"id":"6432","type":"Selection"},"selection_policy":{"id":"6431","type":"UnionRenderers"}},"id":"6247","type":"ColumnDataSource"}],"root_ids":["6249"]},"title":"Bokeh Application","version":"1.4.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('6559').textContent;
+                  var render_items = [{"docid":"2b1a4cb2-3f1c-4c31-aefc-d56999ab38df","roots":{"6249":"0ab14415-590f-43ec-8648-7de1391a9587"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
